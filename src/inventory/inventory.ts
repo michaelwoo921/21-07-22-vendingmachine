@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { logger } from '../log';
 
 export interface Inventory {
   item: string;
@@ -23,21 +24,23 @@ export function loadInventory(){
 
 
 function itemString(item: Inventory){
-
+  logger.trace(`ItemString called with parameter ${JSON.stringify(item)}`)
   return `${item.position}. ${item.item} -$${item.price}`;
 }
 
 export function displayContents(){
+  logger.trace('displayContents called')
   inventory.forEach(item => {
     console.log( itemString(item));
   })
 }
 
-function getByPosition(position: string){
+export function getByPosition(position: string){
   return inventory.find(item => item.position === position);
 }
 
 export function restockItem(itemName: string){
+  logger.trace(`restock called with parameter ${itemName}`)
   let selection = inventory.find(item => item.item === itemName);
   if (selection){
     selection.stock++

@@ -88,3 +88,128 @@
 ]
 [2021-07-07T09:55:57.486] [DEBUG] default - Elisa pass
 [2021-07-07T09:55:57.488] [TRACE] default - Displays menu.
+[2021-07-07T10:01:30.200] [TRACE] default - Displays menu.
+[2021-07-07T10:01:30.210] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T10:01:33.071] [INFO] default - Contents
+[2021-07-07T10:01:33.077] [TRACE] default - Displays menu.
+[2021-07-07T10:01:54.784] [INFO] default - Selection
+[2021-07-07T10:22:34.308] [TRACE] default - Displays menu.
+[2021-07-07T10:22:34.317] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T10:22:53.175] [INFO] default - Selection
+[2021-07-07T10:24:54.269] [TRACE] default - Displays menu.
+[2021-07-07T10:24:54.279] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T10:24:58.281] [INFO] default - Selection
+[2021-07-07T10:25:44.821] [TRACE] default - Displays menu.
+[2021-07-07T10:25:44.831] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T10:25:47.356] [INFO] default - Selection
+[2021-07-07T10:25:47.358] [TRACE] default - Displays menu.
+[2021-07-07T10:25:53.981] [INFO] default - Contents
+[2021-07-07T10:25:53.987] [TRACE] default - Displays menu.
+[2021-07-07T10:25:58.498] [INFO] default - Login
+[2021-07-07T10:26:04.344] [DEBUG] default - Michael pass
+[2021-07-07T10:26:04.345] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T10:26:04.349] [DEBUG] default - Michael pass
+[2021-07-07T10:26:04.351] [TRACE] default - Displays menu.
+[2021-07-07T10:26:24.762] [INFO] default - Selection
+[2021-07-07T10:29:45.414] [TRACE] default - Displays menu.
+[2021-07-07T10:29:45.424] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T10:30:00.570] [INFO] default - Login
+[2021-07-07T10:30:08.318] [DEBUG] default - Michael pass
+[2021-07-07T10:30:08.319] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T10:30:08.322] [DEBUG] default - Michael pass
+[2021-07-07T10:30:08.324] [TRACE] default - Displays menu.
+[2021-07-07T10:30:11.551] [INFO] default - Selection
+[2021-07-07T10:30:18.405] [TRACE] default - Displays menu.
+[2021-07-07T10:36:15.363] [TRACE] default - Displays menu.
+[2021-07-07T10:36:15.373] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 15, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T10:36:24.066] [INFO] default - Restock
+[2021-07-07T10:36:24.068] [TRACE] default - Attempting Restock
+[2021-07-07T10:36:29.004] [TRACE] default - Displays menu.
+[2021-07-07T10:41:39.123] [TRACE] default - Displays menu.
+[2021-07-07T10:41:39.135] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 15, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T10:41:43.197] [INFO] default - Restock
+[2021-07-07T10:41:43.198] [TRACE] default - Attempting Restock
+[2021-07-07T10:41:47.187] [TRACE] default - restock called with parameter Gatorade
+[2021-07-07T10:41:47.189] [TRACE] default - Displays menu.
+[2021-07-07T10:42:03.571] [INFO] default - Contents
+[2021-07-07T10:42:03.573] [TRACE] default - displayContents called
+[2021-07-07T10:42:03.574] [TRACE] default - ItemString called with parameter {"item":"Gatorade","position":"Z67","price":5,"stock":6}
+[2021-07-07T10:42:03.576] [TRACE] default - ItemString called with parameter {"item":"Pepsi Zero","position":"Z68","price":5,"stock":5}
+[2021-07-07T10:42:03.577] [TRACE] default - ItemString called with parameter {"item":"Water","position":"Z69","price":8,"stock":5}
+[2021-07-07T10:42:03.579] [TRACE] default - ItemString called with parameter {"item":"Cholate Chip","position":"A23","price":2,"stock":5}
+[2021-07-07T10:42:03.580] [TRACE] default - ItemString called with parameter {"item":"Snickers","position":"B37","price":3,"stock":5}
+[2021-07-07T10:42:03.582] [TRACE] default - ItemString called with parameter {"item":"Chips","position":"S7","price":4,"stock":5}
+[2021-07-07T10:42:03.583] [TRACE] default - Displays menu.
+[2021-07-07T10:42:33.912] [INFO] default - Restock
+[2021-07-07T10:42:33.912] [TRACE] default - Attempting Restock
+[2021-07-07T10:42:39.895] [TRACE] default - restock called with parameter Gatorade
+[2021-07-07T10:42:39.896] [TRACE] default - Displays menu.
+[2021-07-07T10:42:48.709] [INFO] default - Contents
+[2021-07-07T10:42:48.710] [TRACE] default - displayContents called
+[2021-07-07T10:42:48.711] [TRACE] default - ItemString called with parameter {"item":"Gatorade","position":"Z67","price":5,"stock":7}
+[2021-07-07T10:42:48.713] [TRACE] default - ItemString called with parameter {"item":"Pepsi Zero","position":"Z68","price":5,"stock":5}
+[2021-07-07T10:42:48.715] [TRACE] default - ItemString called with parameter {"item":"Water","position":"Z69","price":8,"stock":5}
+[2021-07-07T10:42:48.716] [TRACE] default - ItemString called with parameter {"item":"Cholate Chip","position":"A23","price":2,"stock":5}
+[2021-07-07T10:42:48.717] [TRACE] default - ItemString called with parameter {"item":"Snickers","position":"B37","price":3,"stock":5}
+[2021-07-07T10:42:48.718] [TRACE] default - ItemString called with parameter {"item":"Chips","position":"S7","price":4,"stock":5}
+[2021-07-07T10:42:48.719] [TRACE] default - Displays menu.
+[2021-07-07T10:47:47.438] [TRACE] default - Displays menu.
+[2021-07-07T10:47:47.447] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 15, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T10:47:52.029] [INFO] default - Restock
+[2021-07-07T10:47:52.030] [TRACE] default - checking user role.
+[2021-07-07T10:47:52.032] [WARN] default - Attempt to Restock not permitted
+[2021-07-07T10:47:52.033] [TRACE] default - Displays menu.
+[2021-07-07T10:47:59.806] [INFO] default - Restock
+[2021-07-07T10:47:59.807] [TRACE] default - checking user role.
+[2021-07-07T10:47:59.808] [WARN] default - Attempt to Restock not permitted
+[2021-07-07T10:47:59.810] [TRACE] default - Displays menu.
