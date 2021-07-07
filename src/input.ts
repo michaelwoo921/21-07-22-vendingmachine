@@ -29,7 +29,6 @@ export function start(){
 
         exit();
     });
-});
 
 }
 
