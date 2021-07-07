@@ -27,7 +27,7 @@ function itemString(item: Inventory){
   return `${item.position}. ${item.item} -$${item.price}`;
 }
 
-function displayContents(){
+export function displayContents(){
   inventory.forEach(item => {
     console.log( itemString(item));
   })
@@ -44,7 +44,7 @@ export function restockItem(itemName: string){
   }
 }
 
-function saveInventory(){
+export function saveInventory(){
   let i = JSON.stringify(inventory);
   fs.writeFileSync('inventory.json', i)
 
