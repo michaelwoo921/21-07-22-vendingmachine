@@ -1,6 +1,7 @@
 import fs from 'fs'
+import { logger } from '../log';
 
-class User {
+export class User {
   role = 'Customer';
   constructor(public name: string, public password: string, public money: number, role: string){
     this.role = role;
@@ -15,6 +16,7 @@ export function loadUsers(){
       console.log(err)
     } else {
       users = JSON.parse(data);
+      logger.debug(users);
 
     }
 
@@ -22,27 +24,33 @@ export function loadUsers(){
 }
 
 
-function getUser(username: string){
+export function getUser(username: string){
   return users.find(person => person.name === username);
 
 }
 
-function login(username:string, password:string){
+export function login(username:string, password:string){
+  logger.debug(users);
+  logger.debug(username + ' ' + password);
   return users.find(person => person.name === username && person.password === password);
 
 }
 
-function register(username:string, password:string, money: number){
+export function register(username:string, password:string, money: number){
+  logger.debug(users);
+
   users.push({
     name: username, 
     password,
     money,
     role: 'Customer'
   })
+  logger.debug(users);
+  //TO DO:  registration for employee
 }
 
 
-function saveUsers(){
+export function saveUsers(){
   let i = JSON.stringify(users);
   fs.writeFileSync('users.json', i)
 

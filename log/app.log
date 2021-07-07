@@ -1,2 +1,90 @@
 [2021-07-07T08:08:48.716] [DEBUG] default - username: Michael- password pass 
 
+[2021-07-07T08:47:52.949] [DEBUG] default - username: Michael- password pass 
+
+[2021-07-07T09:12:43.940] [TRACE] default - Displays menu.
+[2021-07-07T09:17:55.966] [DEBUG] default - username: - password  
+
+[2021-07-07T09:18:02.080] [TRACE] default - Displays menu.
+[2021-07-07T09:18:04.285] [INFO] default - Registration
+[2021-07-07T09:35:16.654] [TRACE] default - Displays menu.
+[2021-07-07T09:35:16.664] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:39:25.988] [INFO] default - Registration
+[2021-07-07T09:39:43.060] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:39:43.063] [TRACE] default - Displays menu.
+[2021-07-07T09:39:57.518] [INFO] default - Login
+[2021-07-07T09:41:20.559] [TRACE] default - Displays menu.
+[2021-07-07T09:41:20.568] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:41:22.420] [INFO] default - Registration
+[2021-07-07T09:41:33.646] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:41:33.649] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:41:33.652] [TRACE] default - Displays menu.
+[2021-07-07T09:41:49.531] [INFO] default - Login
+[2021-07-07T09:45:01.878] [TRACE] default - Displays menu.
+[2021-07-07T09:45:01.889] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:45:11.340] [INFO] default - Registration
+[2021-07-07T09:45:20.258] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:45:20.259] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:45:20.261] [TRACE] default - Displays menu.
+[2021-07-07T09:45:34.211] [TRACE] default - Displays menu.
+[2021-07-07T09:45:34.222] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:45:40.542] [INFO] default - Login
+[2021-07-07T09:55:14.449] [TRACE] default - Displays menu.
+[2021-07-07T09:55:14.459] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:55:24.749] [INFO] default - Registration
+[2021-07-07T09:55:39.392] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:55:39.395] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:55:39.397] [TRACE] default - Displays menu.
+[2021-07-07T09:55:47.413] [INFO] default - Login
+[2021-07-07T09:55:57.482] [DEBUG] default - Elisa pass
+[2021-07-07T09:55:57.483] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 20, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T09:55:57.486] [DEBUG] default - Elisa pass
+[2021-07-07T09:55:57.488] [TRACE] default - Displays menu.

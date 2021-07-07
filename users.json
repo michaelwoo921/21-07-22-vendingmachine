@@ -1,14 +1,1 @@
-[
-  {
-  "name": "Michael",
-  "password": "pass",
-  "money": 20,
-  "role": "Employee"
-},
-{
-  "name": "Jung",
-  "password": "pass",
-  "money": 20,
-  "role": "Customer"
-}
-]
+[{"name":"Michael","password":"pass","money":20,"role":"Employee"},{"name":"Jung","password":"pass","money":20,"role":"Customer"},{"name":"Abigail","password":"pass","money":20,"role":"Customer"},{"name":"Elisa","password":"pass","money":20,"role":"Customer"}]
