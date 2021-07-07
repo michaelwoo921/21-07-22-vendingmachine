@@ -22,8 +22,6 @@ let loggedUser: User;
 */
 
 
-
-
 function restock(){
   logger.trace('Attempting Restock');
   rl.question('restock which? ', function(answer){
@@ -43,21 +41,37 @@ function makeSelection(){
   if (loggedUser){
     rl.question('Which one do you want? ', function(answer){
       // To Do: sanitize input
-      let selection = getByPosition(answer);
-      if(selection){
-        console.log(selection);
-        // obtain payment
-        obtainPayment(selection);
-      } else {
-        console.log('incorrect, try again.')
-        start();
+
+      let valid = false;
+      if (answer.match(/^[A-Z][0-9]{1,2}$/)){
+        valid = true;
       }
+      if (valid) {
+          let selection = getByPosition(answer);
+          if(selection){
+            console.log(selection);
+            obtainPayment(selection);
+          } 
+          else {
+            console.log('incorrect, try again.')
+            start();
+          }
+      }
+      else {
+        console.log('invalid input, try again');
+        start()
+      }
+
+
+      
+
     })
-  }else{
+  }
+
+  else{
     console.log('Please login to proceed.');
     start();
   }
-
 
 }
 
@@ -162,31 +176,41 @@ export function start(){
   q. Exit
   
   ` , function(answer) {
-  
-   switch(answer){
-     case '0':
-       logger.info('Registration');
-       attemptRegister(); break;
-      case '1':
-        logger.info('Login')
-        attemptLogin(); break;
-      case '2':
-        logger.info('Contents')
-        displayContents(); start();
-        break;
-      case '3':
-        logger.info('Selection');
-        makeSelection(); break;
-      case '4':
-        logger.info('Restock');
-        checkUserRole(); break;
-      case 'q':
+    let valid = false;
+    if (answer.match(/^[0-4q]$/)){
+      valid = true;
+    }
+    if(valid){
+      switch(answer){
+        case '0':
+          logger.info('Registration');
+          attemptRegister(); break;
+         case '1':
+           logger.info('Login')
+           attemptLogin(); break;
+         case '2':
+           logger.info('Contents')
+           displayContents(); start();
+           break;
+         case '3':
+           logger.info('Selection');
+           makeSelection(); break;
+         case '4':
+           logger.info('Restock');
+           checkUserRole(); break;
+         case 'q':
+   
+           exit(); break; 
+         default:
+           start();
+   
+      }
 
-        exit(); break; 
-      default:
-        start();
+    } else{
+      console.log('invalid input, try again.');
+      start();
+    }
 
-   }
 
 
   });
