@@ -1,0 +1,17 @@
+{
+  "name": "vendingmachine",
+  "version": "1.0.0",
+  "description": "vending machine console app",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc & node ./build/index.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "typescript": "^4.3.5"
+  }
+}
