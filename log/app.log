@@ -351,3 +351,18 @@
 [2021-07-07T12:11:06.786] [TRACE] default - checking user role.
 [2021-07-07T12:11:06.787] [WARN] default - Attempt to Restock not permitted
 [2021-07-07T12:11:06.789] [TRACE] default - Displays menu.
+[2021-07-07T15:08:39.793] [TRACE] default - Displays menu.
+[2021-07-07T15:08:39.805] [DEBUG] default - [
+  { name: 'Michael', password: 'pass', money: 10, role: 'Employee' },
+  { name: 'Jung', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Abigail', password: 'pass', money: 20, role: 'Customer' },
+  { name: 'Elisa', password: 'pass', money: 20, role: 'Customer' }
+]
+[2021-07-07T16:42:30.979] [INFO] default - successfully created item
+[2021-07-07T16:42:30.994] [INFO] default - successfully created item
+[2021-07-07T16:42:31.198] [INFO] default - successfully created item
+[2021-07-07T16:42:31.205] [INFO] default - successfully created item
+[2021-07-07T16:42:31.207] [INFO] default - successfully created item
+[2021-07-07T16:42:31.215] [INFO] default - successfully created item
+[2021-07-07T16:42:31.224] [INFO] default - successfully created item
+[2021-07-07T16:42:31.240] [INFO] default - successfully created item

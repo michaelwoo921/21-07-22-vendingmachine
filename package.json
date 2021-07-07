@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc & node ./build/index.js",
+    "setup": "tsc & node ./build/setup/createTable.js",
     "build": "tsc",
     "test": "jest"
   },
@@ -15,6 +16,7 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
+    "aws-sdk": "^2.941.0",
     "log4js": "^6.3.0"
   }
 }
