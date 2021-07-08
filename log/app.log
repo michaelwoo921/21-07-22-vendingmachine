@@ -785,3 +785,14 @@
 [2021-07-07T19:39:06.640] [DEBUG] default - { Attributes: { password: 'pass', money: 10 } }
 [2021-07-07T19:39:06.641] [INFO] default - user updated successfully
 [2021-07-07T19:39:06.648] [TRACE] default - Displays menu.
+[2021-07-07T19:54:48.034] [DEBUG] default - env
+[2021-07-07T19:54:48.037] [TRACE] default - Beginning program in dev environment
+[2021-07-07T19:54:48.038] [TRACE] default - Displays menu.
+[2021-07-07T20:15:57.947] [TRACE] default - ItemString called with parameter {"item":"Snickers","price":5,"position":"T56","stock":5}
+[2021-07-07T20:15:57.980] [TRACE] default - ItemString called with parameter {"item":"","position":"","stock":0,"price":0}
+[2021-07-07T20:22:14.176] [TRACE] default - ItemString called with parameter {"item":"Snickers","price":5,"position":"T56","stock":5}
+[2021-07-07T20:22:14.210] [TRACE] default - ItemString called with parameter {"item":"","position":"","stock":0,"price":0}
+[2021-07-07T20:23:17.380] [TRACE] default - ItemString called with parameter {"item":"Snickers","price":5,"position":"T56","stock":5}
+[2021-07-07T20:23:17.411] [TRACE] default - ItemString called with parameter {"item":"","position":"","stock":0,"price":0}
+[2021-07-07T20:26:52.349] [TRACE] default - ItemString called with parameter {"item":"Snickers","price":5,"position":"T56","stock":5}
+[2021-07-07T20:26:52.383] [TRACE] default - ItemString called with parameter {"item":"","position":"","stock":0,"price":0}

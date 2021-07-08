@@ -33,7 +33,7 @@ export function updateItem(item: Inventory, callback: Function){
 
 
 
-function itemString(item: Inventory){
+export function itemString(item: Inventory){
   logger.trace(`ItemString called with parameter ${JSON.stringify(item)}`)
   return `${item.position}. ${item.item} -$${item.price}`;
 }

@@ -2,3 +2,5 @@ node_modules
 build
 BACKUP_JSONDATA
 log/*
+.env
+coverage
