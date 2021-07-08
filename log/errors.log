@@ -1,0 +1,324 @@
+[2021-07-07T19:19:00.969] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:19:00.968Z,
+  requestId: '1L1HL9USRIQCODFPMBCCCPIBJFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 36.694848083490086
+}
+[2021-07-07T19:19:00.978] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:19:00.978Z,
+  requestId: 'FRQSQ4OTLM2Q6RPRPOP5NN0JRRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 29.634925113402943
+}
+[2021-07-07T19:19:00.989] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:19:00.988Z,
+  requestId: '8C7GU1U98FRKLNT2HPKSTLFEFFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 3.784497064385084
+}
+[2021-07-07T19:19:01.004] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:19:01.004Z,
+  requestId: 'NS0UO6MUMI9OD396DQUVB2KR23VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 39.6424013687608
+}
+[2021-07-07T19:19:01.011] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:19:01.010Z,
+  requestId: 'RU6T6SVPHMVITERE8C99AI6RPFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 36.908903098189974
+}
+[2021-07-07T19:19:01.017] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:19:01.017Z,
+  requestId: '66HJ02EMLUGAAR1RV9F1VTBQRFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 20.924509250038614
+}
+[2021-07-07T19:21:37.907] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:21:37.907Z,
+  requestId: 'I9P3IVJTL16R5RMK0F8Q21QLSNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 28.501405142522373
+}
+[2021-07-07T19:21:37.918] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:21:37.918Z,
+  requestId: 'BH02HUPTD6I39OJ1DG2ERTEN9BVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 45.642650000510976
+}
+[2021-07-07T19:21:37.924] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:21:37.923Z,
+  requestId: '39ADEFEVLNKFOLUSN33I5L3V5RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 9.811587873436844
+}
+[2021-07-07T19:21:37.929] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:21:37.929Z,
+  requestId: 'GHU3QPBFN0EHV37LR5O2M6A7LRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 35.470655142938924
+}
+[2021-07-07T19:21:37.940] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:21:37.939Z,
+  requestId: 'QTHI0FJ2NRMOQCTPMSCGS22S7RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 33.33692059525074
+}
+[2021-07-07T19:21:37.948] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:21:37.948Z,
+  requestId: 'FFO7BKVM1SUN10SC7P1V5KC2O3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 2.0060663451819116
+}
+[2021-07-07T19:25:11.806] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:25:11.806Z,
+  requestId: 'T4V0U5RG003Q5HIBHFEAKI60R7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 40.0368457897962
+}
+[2021-07-07T19:25:11.816] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:25:11.816Z,
+  requestId: '980TFEBH17JOKK5O1NLD1MTJUVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 4.273411658090209
+}
+[2021-07-07T19:25:11.822] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:25:11.822Z,
+  requestId: 'U2D2CCEQOA547SAGAMJO0CHJJ3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 23.105726747727175
+}
+[2021-07-07T19:25:11.829] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:25:11.829Z,
+  requestId: '38S8VPPMQVFL3R0DKRCGB33T3RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 46.965536937434635
+}
+[2021-07-07T19:25:11.834] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:25:11.834Z,
+  requestId: 'GGKTQ3I3OGFP5949P3LJR6LGLRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 34.276695020246365
+}
+[2021-07-07T19:25:11.844] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\WORK\2021-revature\vendingmachine\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-07-08T02:25:11.843Z,
+  requestId: 'U4SPMVOFOL2AOPQPMTGDG8ODDVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 39.87968906646769
+}

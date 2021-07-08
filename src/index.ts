@@ -1,7 +1,7 @@
 import fs from 'fs'
-import {load, start} from './input';
+import {start} from './input';
 
-load()
+
 start()
 
 

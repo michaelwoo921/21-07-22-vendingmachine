@@ -1,6 +1,5 @@
 import * as AWS from 'aws-sdk'
 import inventoryService from '../inventory/inventory.service'
-import { users } from '../users/user';
 import userService from '../users/user.service'
 
 AWS.config.update({
@@ -42,7 +41,7 @@ const userSchema = {
 
 
 const removeInventory = {
-  TableName: "Inventory_items"
+  TableName: "inventory_items"
 }
 
 const removeUsers ={
@@ -69,7 +68,7 @@ dynamodb.deleteTable(removeInventory, function(err, data) {
 
       setTimeout(()=>{
         populateInventoryTable();
-      }, 10000)
+      }, 15000)
 
 
   });
@@ -96,7 +95,7 @@ dynamodb.deleteTable(removeUsers, function(err, data) {
 
     setTimeout(()=>{
       populateUserTable();
-    }, 10000)
+    }, 15000)
   
   }, 5000)
 

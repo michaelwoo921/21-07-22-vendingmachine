@@ -1,57 +1,71 @@
 import fs from 'fs'
 import { logger } from '../log';
+import userService from './user.service';
 
 export class User {
-  role = 'Customer';
+  public role = 'Customer';
   constructor(public name: string, public password: string, public money: number, role: string){
     this.role = role;
   }
 }
 
-export let users: User[]
+//  export let users: User[]
 
-export function loadUsers(){
-  fs.readFile('users.json', 'utf-8', function(err, data){
-    if(err){
-      console.log(err)
+// export function loadUsers(){
+//   fs.readFile('users.json', 'utf-8', function(err, data){
+//     if(err){
+//       console.log(err)
+//     } else {
+//       users = JSON.parse(data);
+//       logger.debug(users);
+
+//     }
+
+//   });
+// }
+
+
+// export function getUser(username: string){
+//   return users.find(person => person.name === username);
+
+// }
+
+export async function login(username:string, password:string): Promise<User|null> {
+  logger.debug(username + ' ' + password);
+
+  return await userService.getUserByName(username).then(user => {
+    if (user && user.password === password){
+      return user
     } else {
-      users = JSON.parse(data);
-      logger.debug(users);
-
+      return null;
     }
+  })
 
+}
+
+export function register(username:string, password:string, money: number, callback: Function){
+  userService.addUser(new User(username, password, money, 'Customer')).then(res => {
+    logger.trace(res);
+    callback();
+  }).catch(err => {
+    logger.error(err);
+    console.log('Error, this probablu=y means that the username is already taken.');
+    callback();
   });
 }
 
 
-export function getUser(username: string){
-  return users.find(person => person.name === username);
 
-}
+// export function saveUsers(){
+//   let i = JSON.stringify(users);
+//   fs.writeFileSync('users.json', i)
 
-export function login(username:string, password:string){
-  logger.debug(users);
-  logger.debug(username + ' ' + password);
-  return users.find(person => person.name === username && person.password === password);
+// }
 
-}
-
-export function register(username:string, password:string, money: number){
-  logger.debug(users);
-
-  users.push({
-    name: username, 
-    password,
-    money,
-    role: 'Customer'
-  })
-  logger.debug(users);
-  //TO DO:  registration for employee
-}
-
-
-export function saveUsers(){
-  let i = JSON.stringify(users);
-  fs.writeFileSync('users.json', i)
-
+export function updateUser(user: User){
+  userService.updateUser(user).then(success => {
+    logger.info('user updated successfully');
+  }).catch(error => {
+    logger.warn('user not updated');
+  });
 }

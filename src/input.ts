@@ -1,6 +1,6 @@
 import readline from 'readline';
-import { loadInventory, inventory, displayContents, saveInventory, getByPosition, Inventory, restockItem } from './inventory/inventory';
-import { loadUsers, users, getUser, register,login,  saveUsers, User } from './users/user';
+import { displayContents, getByPosition, Inventory, createItem, updateItem } from './inventory/inventory';
+import { register,login, updateUser, User } from './users/user';
 import {logger} from './log';
 
 const rl = readline.createInterface({
@@ -25,15 +25,9 @@ let loggedUser: User;
 function restock(){
   logger.trace('Attempting Restock');
   rl.question('restock which? ', function(answer){
-    let selection = getByPosition(answer);
-    if (selection){
-      restockItem(selection.item);
-      start();
-    } else{
-      logger.warn('Item does not exist for restock');
-      console.log('Incorrect, try again');
-      start();
-    }
+    let selection = getByPosition(answer, updateItem, start, function(item: Inventory){
+      item.stock++;
+    }); 
   })
 }
 
@@ -43,29 +37,14 @@ function makeSelection(){
       // To Do: sanitize input
 
       let valid = false;
-      if (answer.match(/^[A-Z][0-9]{1,2}$/)){
-        valid = true;
-      }
+      if (answer.match(/^[A-Z][0-9]{1,2}$/)){ valid = true; }
       if (valid) {
-          let selection = getByPosition(answer);
-          if(selection){
-            console.log(selection);
-            obtainPayment(selection);
-          } 
-          else {
-            console.log('incorrect, try again.')
-            start();
-          }
+          let selection = getByPosition(answer, obtainPayment, start);
       }
       else {
-        console.log('invalid input, try again');
         start()
       }
-
-
-      
-
-    })
+    });
   }
 
   else{
@@ -76,7 +55,7 @@ function makeSelection(){
 }
 
 
-function obtainPayment(selection: Inventory){
+function obtainPayment(selection: Inventory, callback? : Function){
   // obtain payemnt
   console.log(`Remit payment of $${selection.price}.`);
   if (selection.price > loggedUser.money){
@@ -92,15 +71,15 @@ function obtainPayment(selection: Inventory){
     });
   }
 
-
 }
 
 function dispenseProduct(selection: Inventory){
   if (selection.stock > 0){
     loggedUser.money -= selection.price;
+    updateUser(loggedUser);
     console.log(`Here is your ${selection.item}. You have ${loggedUser.money} remaining`);
     selection.stock--;
-    start();
+    updateItem(selection, start);
 
   }
   else {
@@ -109,10 +88,10 @@ function dispenseProduct(selection: Inventory){
   }
 }
 
-export function checkUserRole(){
+export function checkUserRole(callback: Function){
   logger.trace('checking user role.');
   if (loggedUser && loggedUser.role === 'Employee'){
-    restock();
+    callback();
   }
   else{
     logger.warn('Attempt to Restock not permitted');
@@ -121,21 +100,31 @@ export function checkUserRole(){
   }
 }
 
-function attemptRegister(){
-  rl.question('Username? ', function(username){
-    if (getUser(username)) {
-      console.log('User already exists');
-    } else{
-      console.log('Register new user');
-      rl.question('Password? ', function(password){
-        // to do confirm password
-        rl.question('Money?', money => {
-          // validate money
-          register(username, password, parseInt(money, 10));
-          start();
+export function addItem(){
+  rl.question('position: ', position=> {
+    rl.question('name: ', item => {
+      rl.question('price', price => {
+        rl.question('stock: ', stock => {
+          try{
+            createItem({
+              position, item, price: Number(price), stock: Number(stock)
+            }, start);
+          } catch{
+            logger.warn('String input for price or stock. Try again.')
+          }
         })
       })
-    }
+    })
+  })
+}
+
+function attemptRegister(){
+  rl.question('Username? ', username => {
+    rl.question('Password? ', password => {
+      rl.question('Money? ', money => {
+        register(username, password, Number(money), start);
+      })
+    })
   })
 }
 
@@ -143,23 +132,22 @@ function attemptLogin(){
   rl.question('Username? ', function(username){
     rl.question('password? ', function(password){
       logger.debug(username + ' ' + password);
-      let user = login(username, password);
-      if (user){
-        loggedUser = user;
-        console.log(`Welcome back ${loggedUser.name}. You have ${loggedUser.money} dollars`);
-      }
-      else {
-        console.log('Login failed');
-      }
-      start();
-
-    })
-  })
+      login(username, password).then(user => {
+        if (user){
+          loggedUser = user;
+          console.log(`Welcome back ${loggedUser.name}. You have ${loggedUser.money} dollars`);
+        }
+        else {
+          console.log('Login failed');
+        }
+        start();
+      });
+    
+    });
+  });
 }
 
 function exit(){
-  saveInventory();
-  saveUsers();
   process.exit(0);
 }
 
@@ -173,11 +161,12 @@ export function start(){
   2. Display Contents
   3. Make Selection
   4. Restock 
+  5. Add Item
   q. Exit
   
   ` , function(answer) {
     let valid = false;
-    if (answer.match(/^[0-4q]$/)){
+    if (answer.match(/^[0-5q]$/)){
       valid = true;
     }
     if(valid){
@@ -190,14 +179,17 @@ export function start(){
            attemptLogin(); break;
          case '2':
            logger.info('Contents')
-           displayContents(); start();
+           displayContents(start); break;
            break;
          case '3':
            logger.info('Selection');
            makeSelection(); break;
          case '4':
            logger.info('Restock');
-           checkUserRole(); break;
+           checkUserRole(restock); break;
+          case '5':
+            logger.info('Add item');
+            checkUserRole(addItem); break;
          case 'q':
    
            exit(); break; 
@@ -221,7 +213,7 @@ export function start(){
 
 
 
-export function load(){
-  loadUsers();
-  loadInventory();
-}
+// export function load(){
+//   loadUsers();
+//   loadInventory();
+// }
